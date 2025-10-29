@@ -11,6 +11,7 @@ So to test out, I decided to make a simple prototype of a chatbot agent with A2A
 ## What you need to run
 For this project I am currently using Gemini to run and process all the logic, but you can certainly swap it out for a different model. If you do use Gemini though you will need an API key for it, as well as access to Google Cloud Project to run and test.
 
+Have these below in your .env file:
 - **GOOGLE_API_KEY**: api key to use the Gemini model
 - **GOOGLE_GENAI_MODEL**: the specific model of gemini to use, I used "gemini-2.0-flash-001"
 - **GOOGLE_GENAI_USE_VERTEXAI**: to set using the ai model to true, set to "TRUE"
